@@ -1,0 +1,109 @@
+.header {
+  min-height: 95px;
+  background-color: #f7f1e9;
+}
+.header__logo {
+  margin: 0;
+  display: block;
+  padding-top: 30px;
+  font-family: "Roboto";
+  color: #186dd6;
+  font-size: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header__wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header__wrap {
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+}
+.header__city {
+  color: #186dd6;
+  cursor: pointer;
+  margin-right: 15px;
+  border-bottom: 1px solid #b4c9e3;
+  font-weight: 500;
+}
+.header__info {
+  display: flex;
+}
+.header-top {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__rub {
+  position: relative;
+  font-weight: 500;
+  margin-left: 20px;
+}
+p {
+  margin: 0;
+}
+.header__rub::after {
+  position: absolute;
+  content: "ᐯ";
+  font-size: 13px;
+  width: 15px;
+  font-weight: 700;
+  height: 15px;
+  cursor: pointer;
+  left: 16px;
+  top: 5px;
+}
+.header__mail {
+  text-decoration: none;
+  color: #f76c19;
+  margin-right: 18px;
+  background: url(../img/user.png) no-repeat 0px 3px;
+  padding-left: 20px;
+}
+.header__btn {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #f76c19;
+  padding: 4px 13px;
+}
+.header__button {
+  display: inline-block;
+}
+.header__search {
+  width: 100%;
+  font-family: "Roboto";
+  position: relative;
+  height: 36px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 12px;
+  padding-left: 35px;
+  background: #fff url(../img/search.png) no-repeat 6px 9px;
+}
+.header__day {
+  position: absolute;
+  font-weight: 700;
+  bottom: 12px;
+  right: -10px;
+  margin: 0;
+}
+.header__day::after {
+  position: absolute;
+  content: '';
+  width: 120%;
+  height: 1px;
+  background: #186dd6;
+  top: 20px;
+  right: -10px;
+}
+.header-bottom {
+  position: relative;
+  width: 96%;
+}

@@ -1,0 +1,125 @@
+.content {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.content__item {
+  max-width: 49%;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px -3px rgba(0,0,0,0.39);
+}
+.content-photo__img {
+  width: 100%;
+  vertical-align: bottom;
+}
+.content-photo {
+  position: relative;
+}
+.content__list {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content-top {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  min-height: 66px;
+}
+.content-top__floor-num {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+.content-top__floor {
+  font-size: 10px;
+  text-align: center;
+}
+.content-top__number {
+  max-width: 65px;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+.content-top__adress {
+  font-size: 15.5px;
+  font-weight: 700;
+  background: url("../img/adress.png") no-repeat 90px 0px;
+  text-align: right;
+  padding-bottom: 5px;
+}
+.content-top__info {
+  margin-top: 15px;
+  padding-right: 19px;
+}
+.content-photo__bottom {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
+  width: 100%;
+}
+.content-photo__left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 15px;
+  margin-top: 10px;
+  display: flex;
+}
+.content-photo__right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.content-photo__bot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.content-photo__price {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.content__check {
+  margin-left: 20px;
+  background: #689f38;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 6px 9px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.content-photo__text {
+  color: #fff;
+  font-size: 12px;
+  padding-top: 20px;
+  padding-right: 18px;
+  cursor: default;
+}
+.content-photo__price {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: default;
+  padding-right: 18px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-shadow: 1px 0px 1px #000000;
+}
+.content-photo__span {
+  font-size: 36px;
+}
+.content__day {
+  font-weight: 300;
+}
