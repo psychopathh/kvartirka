@@ -12,17 +12,67 @@
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
+  @media(max-width: 990px) {
+    padding-top: 5px;
+  }
+  @media(max-width: 670px) {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+.header__menu {
+  @media(max-width: 990px) {
+    align-items: flex-end;
+    padding-right: 15px;
+  }
 }
 .header__wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
   max-width: 1170px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
+.header__log {
+  padding-right: 10px;
+  @media(max-width: 990px) {
+    display: none;
+  }
+}
 .header__wrap {
     display: flex;
     flex-direction: column;
     width: 77%;
+    @media(max-width: 990px) {
+      width: 100%;
+    }
+}
+.header__navig {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    @media(max-width: 990px) {
+      width: 100%;
+      align-items: flex-end;
+      flex-direction: column-reverse;
+    }
+    @media(max-width: 670px) {
+      margin-top: 15px;
+    }
+    @media(max-width: 560px) {
+      align-items: center;
+      margin-top: 5px;
+    }
+}
+.header__log--adap {
+  display: none;
+  @media(max-width: 990px) {
+  display: block;
+  }
+  @media(max-width: 560px) {
+    padding-right: 0;
+  }
 }
 .header__city {
   color: #186dd6;
@@ -31,22 +81,45 @@
   border-bottom: 1px solid #b4c9e3;
   font-weight: 500;
   transition: 0.3s;
+  @media(max-width: 560px) {
+    font-size: 10px;
+  }
 }
 .header__city:hover {
   color: #f76c19;
 }
 .header__info {
   display: flex;
+  @media(max-width: 990px) {
+    margin-bottom: 12px;
+  }
 }
 .header-top {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
+  @media(max-width: 990px) {
+    flex-direction: row;
+    align-items: flex-end;
+    padding-right: 20px;
+    margin-top: 0;
+  }
+  @media(max-width: 560px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media(max-width: 560px) {
+    padding-right: 0;
+  }
 }
 .header__rub {
   position: relative;
   font-weight: 500;
   margin-left: 20px;
+  @media(max-width: 560px) {
+    font-size: 10px;
+    margin-left: 0;
+  }
 }
 p {
   margin: 0;
@@ -61,6 +134,11 @@ p {
   cursor: pointer;
   left: 16px;
   top: 5px;
+  @media(max-width: 560px) {
+    left: 10px;
+    font-size: 8px;
+    top: 3px;
+  }
 }
 .header__mail {
   text-decoration: none;
@@ -68,6 +146,9 @@ p {
   margin-right: 18px;
   background: url(../img/user.png) no-repeat 0px 3px;
   padding-left: 20px;
+  @media(max-width: 560px) {
+    font-size: 12px;
+  }
 }
 .header__btn {
   color: #fff;
@@ -76,6 +157,9 @@ p {
   background: #f76c19;
   padding: 4px 13px;
   transition: 0.3s;
+  @media(max-width: 560px) {
+    font-size: 8px;
+  }
 }
 .header__btn:hover {
   background: #F76C45;
@@ -94,6 +178,12 @@ p {
   margin-top: 12px;
   padding-left: 35px;
   background: #fff url(../img/search.png) no-repeat 6px 9px;
+  @media(max-width: 670px) {
+    font-size: 12px;
+  }
+  @media(max-width: 560px) {
+    font-size: 9px;
+  }
 }
 .header__day {
   position: absolute;
@@ -101,6 +191,9 @@ p {
   bottom: 12px;
   right: -10px;
   margin: 0;
+  @media(max-width: 560px) {
+    display: none;
+  }
 }
 .header__day::after {
   position: absolute;
@@ -114,4 +207,17 @@ p {
 .header-bottom {
   position: relative;
   width: 96%;
+  @media(max-width: 990px) {
+    width: 93.5%;
+    margin-bottom: 10px;
+  }
+  @media(max-width: 560px) {
+    width: 93%;
+  }
+  @media(max-width: 500px) {
+    width: 90%;
+  }
+  @media(max-width: 380px) {
+    width: 86%;
+  }
 }
