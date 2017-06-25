@@ -30,6 +30,10 @@
   margin-right: 15px;
   border-bottom: 1px solid #b4c9e3;
   font-weight: 500;
+  transition: 0.3s;
+}
+.header__city:hover {
+  color: #f76c19;
 }
 .header__info {
   display: flex;
@@ -71,6 +75,10 @@ p {
   border-radius: 5px;
   background: #f76c19;
   padding: 4px 13px;
+  transition: 0.3s;
+}
+.header__btn:hover {
+  background: #F76C45;
 }
 .header__button {
   display: inline-block;
